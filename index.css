@@ -1,0 +1,85 @@
+.head {
+  display: flex;
+  justify-content: end;
+  background-color: beige;
+  justify-items: center;
+  padding: 5px;
+  border: 5px;
+  border-style: groove;
+  border-color: black;
+  font-weight: bold;
+}
+li {
+  display: flex;
+  flex-direction: column;
+}
+.home {
+  display: flex;
+  gap: 50px;
+  font-size: large;
+  color: brown;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: chartreuse;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: large;
+  font-style: italic;
+  font-weight: bolder;
+  justify-content: space-between;
+}
+
+.caprese {
+  display: flex;
+  flex-direction: column;
+
+  width: 30%; /* Or adjust this to control how many items fit on the first row */
+  margin-bottom: 20px;
+}
+.caprese ul {
+  list-style-type: none;
+}
+.appetizer-image {
+  height: 140px;
+  width: 140px;
+  margin-bottom: 20px;
+}
+
+.delicacy {
+  display: flex;
+  justify-content: center;
+  background-color: beige;
+}
+
+.containermain {
+  display: flex;
+  justify-content: space-between;
+}
+
+.h {
+  font-style: italic;
+  color: blue;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: chartreuse;
+}
+.containerdessert {
+  display: flex;
+  justify-content: space-between;
+}
+.del {
+  font-style: italic;
+  color: brown;
+}
+
+.str {
+  color: red;
+}
+
+.headimg {
+  height: 90px;
+  width: 90px;
+  display: inline;
+}
